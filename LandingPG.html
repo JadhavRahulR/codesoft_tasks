@@ -3,10 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>L A N D I N G -P A G E</title>
+    <link rel="stylesheet" href="LandingPg.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>S T A Y - S T R O N G.</h1>
+            </div>
+            <ul class="nav-links">
+                
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     
-    <h1>These is a Landing  Page </h1>
-</body>
+    <section class="hero">
+        <img src="Images/dumbbell-1.jpg" alt="Stay Strong " >
+        <div class="mainText">
+              <h2>Welcome to Our Gym</h2>
+              <h1>S T A Y - S T R O N G.</h1>
+              <p>Get fit, stay healthy!</p>
+              <a href="#" class="cta-btn">Join Now</a>
+            </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <h2>Our Services</h2>
+
+          <div class="service1">
+            <div class="serviceimg">
+                <img src="Images/personal-image.jpg" alt="Service 1">
+            </div>
+            <div class="servicetxt">
+                <h3>Personal Training</h3>
+                <p>During training sessions, personal trainers educate clients on proper exercise techniques, monitor their form, and provide encouragement to push through challenges. They may incorporate a variety of exercise modalities such as cardiovascular activities, strength training, flexibility exercises, and functional movements. Additionally, personal trainers often offer guidance on nutrition, lifestyle changes, and behavior modification to support clients in reaching their fitness goals more effectively.</p>
+            </div>
+          </div>
+          <div class="service1">
+            <div class="serviceimg">
+                <img src="Images/group.jpg" alt="Service 1">
+            </div>
+            <div class="servicetxt">
+                <h3>Group Classes</h3>
+                <p>Join our dynamic group fitness classes for an energizing and effective workout experience! Led by certified instructors, our group classes cater to all fitness levels and preferences, providing a supportive environment for achieving your health and wellness goals. Whether you're a beginner or a seasoned fitness enthusiast, there's a class suited just for you.
+                  Joining our group classes not only ensures a challenging and enjoyable workout but also fosters a sense of community and camaraderie among participants. Connect with fellow gym members who share your fitness aspirations and support each other on the journey to better health. 
+                </p>
+            </div>
+          </div>
+          <div class="service1">
+            <div class="serviceimg">
+                <img src="Images/cardio.jpg" alt="Service 1">
+            </div>
+            <div class="servicetxt">
+                <h3>Cardio Equipment</h3>
+                <p>Cardio workouts in the gym can be structured in various ways, including steady-state sessions where you maintain a consistent intensity throughout, or interval training, which involves alternating between periods of high-intensity effort and recovery. The duration and intensity of cardio sessions can be adjusted based on individual fitness levels and objectives, whether it's weight loss, improving cardiovascular endurance, or simply promoting overall health and well-being.</p>
+            </div>
+          </div>
+      </section>
+
+      <!-- About page -->
+      <section class="about">
+        <h2>About Us</h2>
+        <div class="about-section">
+
+          <h3>Welcome to STAY STRONG .</h3>
+          <div class="description">
+            <p>We are dedicated to helping our members achieve their fitness goals and lead healthier lives. At Gym Name, we provide state-of-the-art facilities, expert trainers, and a supportive community to assist you on your fitness journey.</p>
+            
+          </div>
+          
+          <div class="options">
+            
+            <p><b>Our gym offers a wide range of amenities, including:</b></p>
+            <ul>
+              <li>Modern workout equipment</li>
+              <li>Group fitness classes</li>
+              <li>Personal training services</li>
+              <li>Cardio and strength training areas</li>
+              <li>Locker rooms and showers</li>
+              <li>Nutritional guidance</li>
+            </ul>
+          </div>
+          <p>Whether you're a seasoned athlete or just starting out, we welcome individuals of all fitness levels. Our friendly staff is here to support you every step of the way.</p>
+        </div>
+          
+        <!-- Contact Page -->
+      </section>
+      <div class="contactPg">
+        <h2>Contact Us </h2>
+      </div>
+      <section class="contact-section">
+
+        <div class="contact-info">
+          <h2>Visit Us</h2>
+          <p>123 Gym Street</p>
+          <p>Nashik, State-Maharastra</p>
+        </div>
+        <div class="contact-info">
+          <h2>Contact Info</h2>
+          <p>Phone: 555-555-5555</p>
+          <p>Email: info@gymname.com</p>
+        </div>
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    
+      <footer>
+        <p>&copy; 2024 S T A Y - S T R O N G. All rights reserved.</p>
+      </footer>
+    </body>
 </html>

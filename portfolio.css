@@ -1,0 +1,200 @@
+/* portfolio.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  /* styling navbar */
+  header {
+    background-color: #2740ff;
+    color: #fff;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+  }
+  .title{
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  .navbar{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 199;
+
+  }
+ header nav .pages{
+     width: 50%;
+    padding-left: 100px;
+  }
+  nav .pages ul li {
+    display: inline;
+    list-style: none;
+  }
+.pages ul li a {
+   align-items: center;
+   color: white;
+   text-decoration: none;
+   margin-right: 20px;
+}
+
+
+  /* styling sections */
+  .section1{
+    padding-top: 100px;
+    /* border: 2px solid red; */
+  }
+
+  .introduction-container{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    padding: 0;
+  }
+  .intro-img {
+    /* border: 2px solid red; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 255, 233);
+  }
+  .intro-img img{
+    width: 250px;
+  }
+  .introText{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+
+  }
+  .introText pre {
+    font-size: 1rem;
+  }
+  .introText pre span{
+    color: #2740ff;
+  }
+  .introText pre  a button{
+    background-color:#2740ff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .introText pre  a  {
+
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .introduction h2{
+    text-transform: uppercase;
+    margin: 10px;
+  }
+
+  .introduction {
+    /* text-align: center; */
+    padding:40px 30px;
+    margin-top: 40px;
+    /* border: 2px solid red; */
+    width: 95%;
+  }
+  .intro-info p {
+    margin-bottom: 10px;
+  }
+
+
+  /* styling About me section  */
+  .About-container h2{
+    text-align: center;
+    color: #2740ff;
+    margin: 20px 0px ;
+  }
+  .content{
+    padding: 30px;
+  }
+  .content h3 {
+    margin: 10px;
+  }
+  .describe {
+    margin-bottom: 20px;
+  }
+
+
+  /* styling contact section */
+  .contact-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  .contact-content p {
+    width: 400px;
+    margin: 20px;
+
+  }
+  .contact-content form{
+    /* border: 2px solid red; */
+    width: 400px;
+    padding: 30px 0px ;
+  }
+  .contact-content form   label{
+    padding-bottom:20px ;
+    margin-bottom: 10px;
+
+  }
+  .name,.msg,.email{
+    margin: 10px;
+  }
+  .contact-content form input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+  }
+  .contact-content form textarea{
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+  .contact-content form button{
+    padding: 10px 20px ;
+    color: #fff;
+    margin-top: 40px;
+    background-color: #2740ff;
+    margin-left: 150px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
